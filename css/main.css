@@ -180,6 +180,7 @@ footer{
 }
 
 .person img{
+	max-width: 400px;
 	width: 100%;
 	border-radius: 100%;
 	border: 10px solid #2b2e68;
@@ -194,6 +195,7 @@ footer{
 }
 
 .project-icon img{
+	max-width: 300px;
 	width: 100%;
 	border-radius: 100%;
 	border: 10px solid #2b2e68;
