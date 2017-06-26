@@ -1,0 +1,204 @@
+*{
+	font-family: 'Quicksand', sans-serif;
+	transition: all .2s ease;
+}
+
+body{
+
+}
+
+#topbar{
+
+}
+
+#logo{
+	padding:16px;
+	text-align: center;
+	width:100px;
+	height: 100px;
+
+}
+
+#logo > img {
+	width: 100%;
+	height: 100%;
+    transition: all .2s ease;
+}
+
+#logo > img:hover{
+	transform: rotate(60deg);
+}
+
+#topbar{
+	box-shadow: 0 0 2px 0px black;
+}
+
+#bottombar{
+	width: 100%;
+	border-width: 6px 0 0 0;
+	border-style: solid;
+	border-color: black;
+	margin-top: 30px;
+}
+
+.icon-bar {
+    background-color: black;
+}
+
+.navbar * {
+	font-size: 16px;
+}
+
+
+@media (min-width: 768px){
+	.collapse > .nav{
+		position:absolute;
+		right: 5%;
+		bottom: 20%;
+	}
+}
+
+.navbar-nav > li > a {
+	color:black;
+	padding: 15px 20px 15px 20px;
+	font-size: 22px;
+}
+
+.navbar-nav > li.active > a{
+	color: white;
+	background-color: #2b2e68
+}
+
+#active-page {
+	background-color: #DDDDDD;
+}
+
+#p1{
+	text-align: center;
+}
+
+footer{
+	padding: 3% 0 6% 0;
+	display: inline-block;
+	text-align: center;
+}
+
+footer a > img{
+	width:100%;
+}
+
+.navbar-toggle{
+	width: 64px;
+	margin: 16px;
+}
+
+.navbar-toggle .icon-bar{
+	width: 40px;
+	height: 4px;
+	margin: 8px;
+}
+
+#title{
+	margin: 50px auto;
+	// font-size: 80px;
+	text-align: center;
+}
+
+@media (min-width: 768px){
+	#title{
+		font-size: 60px;
+	}
+}
+
+.navbar-right * {
+	font-weight: .1;
+}
+
+.container div{
+	font-size: 14px;
+	line-height: 200%;
+}
+
+#home1 *{
+	text-align: center;
+}
+
+#home1 h1{
+	padding-top: 40px;
+	font-size: 70px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#home1 h2{
+	color: #2b2e68;
+}
+
+.contact-icon{
+	width: 160px;
+}
+
+.centered-contents{
+	text-align: center;
+}
+
+#contact1 h1{
+	font-size: 64px;
+	margin: 40px;
+}
+
+#contact1 button{
+	box-shadow: 0 0 0 0 #555555;
+	font-size: 24px;
+	background-color: #2b2e68;
+	color: white;
+	padding: 12px;
+	border:none;
+}
+
+#contact1 div{
+	padding: 40px
+}
+
+#contact1 button:hover{
+	box-shadow: 0 0 20px 0 #555555;
+	background-color: #4F5290;
+}
+
+#anim{
+	width: 80%;
+	padding: 5%;
+}
+
+footer{
+	height: 120px;
+	width: 100%;
+}
+
+.person{
+	text-align: center;
+	padding: 20px;
+}
+
+.person img{
+	width: 100%;
+	border-radius: 100%;
+	border: 10px solid #2b2e68;
+}
+
+#people1 .person{
+	font-size: 18px;
+}
+
+.project-icon{
+	padding: 20px;
+}
+
+.project-icon img{
+	width: 100%;
+	border-radius: 100%;
+	border: 10px solid #2b2e68;
+}
+
+.project-descrip{
+	padding: 20px;
+}
