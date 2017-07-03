@@ -1,6 +1,6 @@
 *{
 	font-family: 'Quicksand', sans-serif;
-	transition: all .2s ease;
+	transition: all .15s ease;
 }
 
 body{
@@ -119,11 +119,9 @@ footer a > img{
 	line-height: 200%;
 }
 
-#home1 *{
-	text-align: center;
-}
 
-#home1 h1{
+#bigTitle{
+	text-align: center;
 	padding-top: 40px;
 	font-size: 70px;
 	font-family: 'Poppins', sans-serif;
@@ -141,12 +139,12 @@ footer a > img{
 	text-align: center;
 }
 
-#contact1 h1{
+h1{
 	font-size: 64px;
 	margin: 40px;
 }
 
-#contact1 button{
+#contact1 button, #training1 button{
 	box-shadow: 0 0 0 0 #555555;
 	font-size: 24px;
 	background-color: #2b2e68;
@@ -159,9 +157,9 @@ footer a > img{
 	padding: 40px
 }
 
-#contact1 button:hover{
+#contact1 button:hover, #training1 button:hover{
 	box-shadow: 0 0 20px 0 #555555;
-	background-color: #4F5290;
+	background-color: #303475;
 }
 
 #anim{
@@ -183,6 +181,7 @@ footer{
 	max-width: 400px;
 	width: 100%;
 	border-radius: 100%;
+	background-color: #2b2e68;
 	border: 10px solid #2b2e68;
 }
 
@@ -198,9 +197,47 @@ footer{
 	max-width: 300px;
 	width: 100%;
 	border-radius: 100%;
+	background-color: #2b2e68;
 	border: 10px solid #2b2e68;
 }
 
 .project-descrip{
 	padding: 20px;
+}
+
+#training1 img{
+	width: 40%;
+}
+
+#training1{
+	text-align: center;
+}
+
+.bannerTitle{
+	height: 300px;
+	line-height: 100px;
+	padding-top: 170px;
+	padding-left: 40px;
+	text-align: left;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-size: 52px;
+}
+
+.bannerTitle span{
+	background-color: #2b2e68;
+	padding: 10px;
+}
+
+#trainingFaq{
+	background-image: url("../img/training.jpg");
+}
+
+#homeTitle1{
+	background-image: url("../img/education.jpg");
+}
+
+#homeTitle2{
+	background-image: url("../img/experience.jpg");
 }
