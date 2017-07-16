@@ -16,7 +16,6 @@ body{
 	text-align: center;
 	width:100px;
 	height: 100px;
-
 }
 
 #logo > img {
@@ -60,8 +59,8 @@ body{
 
 .navbar-nav > li > a {
 	color:black;
-	padding: 15px 20px 15px 20px;
-	font-size: 22px;
+	padding: 12px 18px 12px 18px;
+	font-size: 20px;
 }
 
 .navbar-nav > li.active > a{
@@ -242,4 +241,13 @@ footer{
 
 #homeTitle2{
 	background-image: url("../img/experience.jpg");
+}
+
+#homeTitle3{
+	background-image: url("../img/exposure.jpg");
+}
+
+#home1 div{
+	font-size: 24px;
+	margin: 20px;
 }
