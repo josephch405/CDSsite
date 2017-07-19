@@ -14,8 +14,8 @@ body{
 #logo{
 	padding:16px;
 	text-align: center;
-	width:100px;
-	height: 100px;
+	width:10vh;
+	height: 10vh;
 }
 
 #logo > img {
@@ -29,7 +29,7 @@ body{
 }
 
 #topbar{
-	box-shadow: 0 0 10px 0px rgba(0,0,0,.4);
+	box-shadow: 0 0 1vh 0px rgba(0,0,0,.4);
 }
 
 #bottombar{
@@ -44,11 +44,6 @@ body{
     background-color: black;
 }
 
-.navbar * {
-	font-size: 16px;
-}
-
-
 @media (min-width: 768px){
 	.collapse > .nav{
 		position:absolute;
@@ -59,8 +54,8 @@ body{
 
 .navbar-nav > li > a {
 	color:black;
-	padding: 12px 18px 12px 18px;
-	font-size: 20px;
+	padding: 1.6vh 1.8vh 1.6vh 1.8vh;
+	font-size: 2.2vh;
 }
 
 .navbar-nav > li.active > a{
@@ -87,25 +82,25 @@ footer a > img{
 }
 
 .navbar-toggle{
-	width: 64px;
-	margin: 16px;
+	width: 6.4vh;
+	margin: 1.6vh;
 }
 
 .navbar-toggle .icon-bar{
-	width: 40px;
-	height: 4px;
-	margin: 8px;
+	width: 4vh;
+	height: .4vh;
+	margin: .8vh;
 }
 
 #title{
-	margin: 50px auto;
+	margin: 5vh auto;
 	// font-size: 80px;
 	text-align: center;
 }
 
 @media (min-width: 768px){
 	#title{
-		font-size: 60px;
+		font-size: 6vh;
 	}
 }
 
@@ -114,15 +109,15 @@ footer a > img{
 }
 
 .container div{
-	font-size: 14px;
+	font-size: 1.4vh;
 	line-height: 200%;
 }
 
 
 #bigTitle{
 	text-align: center;
-	padding-top: 40px;
-	font-size: 70px;
+	padding-top: 4vh;
+	font-size: 7vh;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -131,7 +126,7 @@ footer a > img{
 }
 
 .contact-icon{
-	width: 160px;
+	width: 16vh;
 }
 
 .centered-contents{
@@ -139,26 +134,32 @@ footer a > img{
 }
 
 h1{
-	font-size: 64px;
-	margin: 40px;
+	font-size: 6.4vh;
+	margin: 4vh;
+	font-family: 'Poppins', sans-serif;
 }
 
 #contact1 button, #training1 button{
 	box-shadow: 0 0 0 0 rgba(0,0,0,.2);
-	font-size: 24px;
+	font-size: 2.4vh;
 	background-color: #2b2e68;
 	color: white;
-	padding: 12px;
+	padding: 1.2vh;
 	border:none;
 }
 
 #contact1 div{
-	padding: 40px
+	padding: 4vh;
 }
 
-#contact1 button:hover, #training1 button:hover{
-	box-shadow: 0 0 20px 0 rgba(0,0,0,.4);
+#contact1 button:hover, #training1 button:hover, #inTheLoop:hover{
+	box-shadow: 0 0 2vh 0 rgba(0,0,0,.4);
 	background-color: #303475;
+	transform: scale(1.05, 1.05);
+	text-decoration: none;
+}
+
+#contact1 img:hover{
 	transform: scale(1.05, 1.05)
 }
 
@@ -168,17 +169,17 @@ h1{
 }
 
 footer{
-	height: 120px;
+	height: 12vh;
 	width: 100%;
 }
 
 .person{
 	text-align: center;
-	padding: 20px;
+	padding: 6vh;
 }
 
 .person img{
-	max-width: 400px;
+	max-width: 40vh;
 	width: 100%;
 	border-radius: 100%;
 	background-color: #2b2e68;
@@ -186,23 +187,23 @@ footer{
 }
 
 #people1 .person{
-	font-size: 18px;
+	font-size: 2vh;
 }
 
 .project-icon{
-	padding: 20px;
+	padding: 2vh;
 }
 
 .project-icon img{
-	max-width: 300px;
+	max-width: 30vh;
 	width: 100%;
 	border-radius: 100%;
 	background-color: #2b2e68;
-	border: 10px solid #2b2e68;
+	border: 1vh solid #2b2e68;
 }
 
 .project-descrip{
-	padding: 20px;
+	padding: 2vh;
 }
 
 #training1 img{
@@ -214,21 +215,21 @@ footer{
 }
 
 .bannerTitle{
-	height: 300px;
-	line-height: 100px;
-	padding-top: 170px;
-	padding-left: 40px;
+	height: 30vh;
+	line-height: 10vh;
+	padding-top: 17vh;
+	padding-left: 4vh;
 	text-align: left;
 	background-position: center;
 	background-size: cover;
 	color: white;
-	font-size: 52px;
-	box-shadow: 0 0 20px 0 rgba(0,0,0,.2)
+	font-size: 5.2vh;
+	box-shadow: 0 0 2vh 0 rgba(0,0,0,.2)
 }
 
 .bannerTitle span{
 	background-color: #2b2e68;
-	padding: 10px;
+	padding: 1vh;
 }
 
 #trainingFaq{
@@ -248,6 +249,15 @@ footer{
 }
 
 #home1 div{
-	font-size: 24px;
-	margin: 20px;
+	font-size: 2.4vh;
+	margin: 2vh;
+}
+
+#inTheLoop{
+	box-shadow: 0 0 2vh 0 rgba(0,0,0,.4);
+	display:inline-block;
+	padding: 2vh 4vh 2vh 4vh;
+	color: white;
+	background-color: #2b2e68;
+	font-weight: bold;
 }
