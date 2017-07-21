@@ -1,51 +1,75 @@
 <html>
 
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-	<title>Cornell Data Science</title>
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/main.css">
-	<script src="./js/jquery-3.2.1.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<link rel="icon" href="./img/icon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <title>Cornell Data Science</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="icon" href="./img/icon.ico">
 </head>
 
 <body>
-	<div id="topbar" class="">
-		<div class="navbar container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" id="logo" href="./index.html"><img src="./img/venn_128.png"></a>
-			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="./index.html">Home</a></li>
-					<li><a href="./people.html">People</a></li>
-					<li class="active"><a href="./projects.html">Projects</a></li>
-					<li><a href="./events.html">Events</a></li>
-					<li><a href="./training.html">Training</a></li>
-					<li><a href="./contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="container" id="projects1">
-		<div class = "col-xs-12 project centered-contents">
-			<div class = "project-icon col-xs-12 col-sm-3">
-				<img src="./img/kaggle.png">
-			</div>
-			<div class = "project-descrip col-xs-12 col-sm-9">
-				<h3><b>Kaggle March Madness Challenge</b></h3>
-				<h3>Predicting winning probabilities</h3>
-				DESCRIPTION HERE BLAH BLAH BLAH
-			</div>
-		</div>
-	</div>
+    <div id="topbar" class="">
+        <div class="navbar container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="logo" href="./index.html"><img src="./img/venn_128.png"></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./people.html">People</a></li>
+                    <li class="active"><a href="./projects.html">Projects</a></li>
+                    <li><a href="./events.html">Events</a></li>
+                    <li><a href="./training.html">Training</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="projects1">
+        <h1>Projects</h1>
+        <h2 class="project-term">Spring 2017</h2>
+        <div class="col-xs-12 project">
+            <div class="project-icon col-xs-12 col-sm-3">
+                <img src="./img/kaggle.png">
+            </div>
+            <div class="project-descrip col-xs-12 col-sm-9">
+                <h3><b>Kaggle Subteam</b></h3>
+                <h3>Making predictive models for competitions on Kaggle.com</h3>
+                <p>Kaggle is a platform where companies and researchers post their data. Statisticians and data miners from all over the world compete to produce the best models. This semester, we’re competing in two competitions.</p>
+                <p>Through feature engineering and statistical techniques, each team member implements various ML algorithms on the dataset, including logistic regression, word2vec, and random forests. Team members will then improve their models using optimization techniques. Finally, we use ensemble methods to combine all algorithms into a single ‘super-algorithm' that we'll submit to Kaggle.</p>
+            </div>
+        </div>
+        <div class="col-xs-12 project">
+            <div class="project-icon col-xs-12 col-sm-3">
+                <img src="./img/algo.png">
+            </div>
+            <div class="project-descrip col-xs-12 col-sm-9">
+                <h3><b>Algorithmic Trading</b></h3>
+                <h3>Finding opportunities to capitalize using data-driven approaches</h3>
+                <p> By using financial data, we hope to formulate accurate predictions for various market sectors. We hope to achieve these goals by using well-known algorithmic trading approaches, and then supplementing them with Machine Learning techniques. We hope to use clustering algorithms, among other unsupervised learning algorithms, to find equities that we wish to trade. Additionally, we aim to use supervised learning techniques and Natural Language Processing techniques to create accurate predictions of future prices.
+                </p>
+            </div>
+        </div>
+        <div class="col-xs-12 project">
+            <div class="project-icon col-xs-12 col-sm-3">
+                <img src="./img/yelp.png">
+            </div>
+            <div class="project-descrip col-xs-12 col-sm-9">
+                <h3><b>Yelp Dataset Challenge</b></h3>
+                <h3>Producing a research paper on bias factors affecting star-ratings in Yelp reviews</h3>
+                <p>The data we’re working on includes detailed information on users, businesses, reviews, and data collected through Yelp features like check-ins and tips. The biggest challenge for the team is perhaps the sheer size and complexity of the data, which contains 15 gigabytes of JSON text. The size of the data requires a heavy emphasis on data engineering and parallel computing. Our team consists of students with strong machine learning and statistical backgrounds, and we are excited to explore areas like recommendation systems, time-series analysis, Natural Language Processing, and sentiment analysis.</p>
+            </div>
+        </div>
+    </div>
 </body>
 <footer>
 </footer>
