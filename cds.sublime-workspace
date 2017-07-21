@@ -60,7 +60,7 @@
 			"file": "projects.html",
 			"settings":
 			{
-				"buffer_size": 1769,
+				"buffer_size": 5967,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -96,7 +96,7 @@
 			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 3388,
+				"buffer_size": 3939,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -119,9 +119,17 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "",
+		"last_filter": "pretti",
 		"selected_items":
 		[
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"prett",
 				"HTMLPrettify"
@@ -151,15 +159,11 @@
 				"Markdown Preview: Preview in Browser"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"packa",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 493.0
+		"width": 475.0
 	},
 	"console":
 	{
@@ -243,6 +247,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
 			"padding: 16p",
 			"decor",
 			"family",
@@ -318,7 +323,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -345,10 +350,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 437.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -357,28 +362,29 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1769,
+						"buffer_size": 5967,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1749,
-								1749
+								4792,
+								4792
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended Origin (SL).tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 1150.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -405,10 +411,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 55.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -438,7 +444,7 @@
 						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -465,10 +471,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 220.0,
+						"translation.y": 68.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -477,25 +483,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3388,
+						"buffer_size": 3939,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								139,
-								139
+								2723,
+								2723
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Extended Origin (SL).tmTheme",
 							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3330.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -514,8 +521,8 @@
 						"selection":
 						[
 							[
-								1604,
-								1604
+								1685,
+								1685
 							]
 						],
 						"settings":
@@ -525,10 +532,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 285.0,
+						"translation.y": 95.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -591,6 +598,10 @@
 		"selected_items":
 		[
 			[
+				"proj",
+				"projects.html"
+			],
+			[
 				"peo",
 				"people.html"
 			],
@@ -616,9 +627,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "jose",
 		"selected_items":
 		[
+			[
+				"jose",
+				"~/josephch405.github.io/github-site.sublime-project"
+			],
 			[
 				"",
 				"~/mldemos/src/mldemos.sublime-project"
