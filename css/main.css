@@ -270,3 +270,20 @@ footer {
 .project-term {
     text-align: center;
 }
+
+#modal *{
+    border-radius: 0;
+    font-size: 2vh;
+}
+
+#modal .btn-primary {
+    background-color: #2b2e68
+}
+
+.modal-title {
+    display: inline-block;
+}
+
+.form-control{
+    height: auto;
+}
