@@ -104,7 +104,7 @@ footer a>img {
 }
 
 .container div {
-    font-size: 1.8vh;
+    font-size: 2vh;
     line-height: 200%;
 }
 
@@ -130,7 +130,7 @@ footer a>img {
 
 h1 {
     font-size: 6.4vh;
-    margin: 4vh;
+    margin: 1vh;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
@@ -208,7 +208,8 @@ footer {
 }
 
 .project-descrip p {
-    text-indent: 8vh;
+    margin-top: 2vh;
+    //text-indent: 8vh;
 }
 
 #training1 img {
@@ -261,7 +262,7 @@ footer {
 #inTheLoop {
     box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .4);
     display: inline-block;
-    padding: 2vh 4vh 2vh 4vh;
+    padding: 1vh 2vh 1vh 2vh;
     color: white;
     background-color: #2b2e68;
     font-weight: bold;
@@ -286,4 +287,13 @@ footer {
 
 .form-control{
     height: auto;
+}
+
+#home1 h2{
+    color: black;
+    margin: 3vh;
+}
+
+#home1 input {
+    border-radius: 0;
 }
