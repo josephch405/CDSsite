@@ -321,3 +321,7 @@ footer {
 	text-decoration: none;
 	outline: none;
 }
+
+h2 {
+	font-size: 3vh;
+}
