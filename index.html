@@ -1,76 +1,160 @@
 <html>
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <title>Cornell Data Science</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <script src="./js/jquery-3.2.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <link rel="icon" href="./img/icon.ico">
-    <script type="text/javascript" src="./js/analytics.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<title>Cornell Data Science</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<link rel="icon" href="./img/icon.ico">
+	<script type="text/javascript" src="./js/analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+	<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyD_-LfzHU12LjS50UFPOoqi6iMN69CWro4",
+		authDomain: "cdssite-bfce5.firebaseapp.com",
+		databaseURL: "https://cdssite-bfce5.firebaseio.com",
+		projectId: "cdssite-bfce5",
+		storageBucket: "cdssite-bfce5.appspot.com",
+		messagingSenderId: "659760454405"
+	};
+	firebase.initializeApp(config);
+	</script>
 </head>
 
 <body>
-    <div id="topbar" class="">
-        <div class="navbar container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" id="logo" href="./index.html"><img src="./img/venn_128.png"></a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="./index.html">Home</a></li>
-                    <li><a href="./people.html">People</a></li>
-                    <li><a href="./projects.html">Projects</a></li>
-                    <li><a href="./training.html">Training</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container centered-contents" id="home1">
-        <h1 id="bigTitle">
+	<div id="modal" class="modal fade">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Listserve Signup</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter full name">
+					</div>
+					<div class="form-group">
+						<label for="email">Cornell Email Address</label>
+						<input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+					</div>
+					<div class="form-group">
+						<label for="grade">Grade Level</label>
+						<select class="form-control" id="grade">
+							<option selected disabled>Select...</option>
+							<option value="freshman">Freshman</option>
+							<option value="sophomore">Sophomore</option>
+							<option value="junior">Junior</option>
+							<option value="senior">Senior</option>
+							<option value="graduate">Graduate (Masters, PhD)</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button id="accept-form" type="button" class="btn btn-primary">Accept</button>
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="topbar" class="">
+		<div class="navbar container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" id="logo" href="./index.html"><img src="./img/venn_128.png"></a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="./index.html">Home</a></li>
+					<li><a href="./people.html">People</a></li>
+					<li><a href="./projects.html">Projects</a></li>
+					<li><a href="./education.html">Education</a></li>
+					<li><a href="./contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container centered-contents" id="home1">
+		<h1 id="bigTitle">
 			Cornell Data Science
 		</h1>
-        <h2>Train, test, validate, create.</h2>
-        <h2>Data Science + Machine Learning @ Cornell</h2>
-        <!-- <h3>Data Scientists at Cornell</h3> -->
-        <div class="col-xs-12">
-            <h1>Stay in the loop</h1>
-            <br>
-            <input class = "col-xs-6 col-xs-offset-3" type="email" class="form-control" id="email-front" aria-describedby="emailHelp" placeholder="Enter email">
-            <br><br>
-            <a id="inTheLoop" href="./contact.html">Listserv</a>
-        </div>
-
-        <img id="anim" src="./img/once-c.gif">
-
-        <div class="col-xs-12">
-            <br>
-            <h1>What We Do</h1>
-        </div>
-
-        <div class="col-xs-12">
-            <h1 class="bannerTitle" id="homeTitle1"><span>Education</span></h1> 
-            <h2>We train students to think and act like data scientists - we want more people to understand data analysis and machine learning at a deeper level.</h2>
-            <h2>In addition, we hold public tech talks with professors and industry experts.</h2>
-        </div>
-        <div class="col-xs-12">
-            <h1 class="bannerTitle" id="homeTitle2"><span>Experience</span></h1> 
-            <h2>We offer a variety of projects that operate as subteams. We practice what we teach - real techniques with real data.</h2>
-        </div>
-        <div class="col-xs-12">
-            <h1 class="bannerTitle" id="homeTitle3"><span>Exposure</span></h1> 
-            <h2>Connect with our members during our networking events, visits, and mentoring sessions. Learn about what a career in data science is about.</h2>
-        </div>
+		<h2>Data Science + Machine Learning @ Cornell</h2>
+		<!-- <h3>Data Scientists at Cornell</h3> -->
+		<div class="col-xs-12">
+			<h2>Stay in the loop</h2>
+			<input class="col-xs-6 col-xs-offset-3" type="email" class="form-control" id="email-front" aria-describedby="emailHelp" placeholder="Enter email">
+			<br>
+			<br>
+			<a id="inTheLoop" href="#" data-toggle="modal" data-target="#modal">Join Listserv</a>
+		</div>
+		<img id="anim" src="./img/once-c.gif">
+		<div class="col-xs-12">
+			<br>
+			<h1>What We Do</h1>
+		</div>
+		<div class="col-xs-12">
+			<h1 class="bannerTitle" id="homeTitle1"><span>Education</span></h1>
+			<h2>We train students to think and act like data scientists - we want more people to understand data analysis and machine learning at a deeper level.</h2>
+			<h2>In addition, we hold public tech talks with professors and industry experts.</h2>
+		</div>
+		<div class="col-xs-12">
+			<h1 class="bannerTitle" id="homeTitle2"><span>Experience</span></h1>
+			<h2>We offer a variety of projects that operate as subteams. We practice what we teach - real techniques with real data.</h2>
+		</div>
+		<div class="col-xs-12">
+			<h1 class="bannerTitle" id="homeTitle3"><span>Exposure</span></h1>
+			<h2>Connect with our members during our networking events, visits, and mentoring sessions. Learn about what a career in data science is about.</h2>
+		</div>
 </body>
 <footer>
+	<script>
+	var popup = function() {
+		$('#email').val($("#email-front").val());
+	}
+
+	$("#inTheLoop").on('click', popup)
+	$("#email-front").keypress(function(e) {
+		if (e.which == 13) {
+			console.log("sadf")
+			popup();
+			$("#modal").modal('show');
+		}
+	})
+
+	$("#accept-form").on("click", function() {
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var grade = $("#grade").val();
+
+		if (!name)
+			alert("Please fill in your name!")
+		else if (email.indexOf("@") < 0 || !email) {
+			alert("Please enter valid email!")
+		} else if (!grade)
+			alert("Please fill in your grade!")
+		else {
+			firebase.database().ref("/listserv").push({
+				name: name,
+				email: email,
+				grade: grade
+			}, function() {
+				$("#modal .modal-body").text("Email added - stay tuned!")
+				$("#accept-form").hide();
+			})
+		}
+	})
+	</script>
 </footer>
 
 </html>
