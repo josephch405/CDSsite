@@ -314,3 +314,10 @@ footer {
 .navbar {
 	margin-bottom: 0;
 }
+
+#contact1 a,
+#contact1 a:focus,
+#contact1 a:hover {
+	text-decoration: none;
+	outline: none;
+}
