@@ -146,6 +146,8 @@ h1 {
 	margin: 1vh;
 	font-family: 'Poppins', sans-serif;
 	text-align: center;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
 }
 
 #contact1 button,
@@ -165,7 +167,10 @@ h1 {
 
 #contact1 button:hover,
 #training1 button:hover,
-#inTheLoop:hover {
+#inTheLoop:hover,
+#playground:hover,
+#inTheLoop:focus,
+#playground:focus {
 	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .4);
 	background-color: #303475;
 	transform: scale(1.05, 1.05);
@@ -177,8 +182,8 @@ h1 {
 }
 
 #anim {
-	width: 80%;
-	padding: 5%;
+	width: 70%;
+	padding: 0;
 }
 
 footer {
@@ -226,11 +231,16 @@ footer {
 }
 
 #training1 img {
-	width: 40%;
+	padding: 0;
+	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .2)
 }
 
 #training1 {
 	text-align: center;
+}
+
+#training1 button {
+	width: 100%;
 }
 
 .bannerTitle {
@@ -271,7 +281,8 @@ footer {
 	font-size: 2.4vh;
 }
 
-#inTheLoop {
+#inTheLoop,
+#playground {
 	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .4);
 	display: inline-block;
 	padding: 1vh 2vh 1vh 2vh;
@@ -317,11 +328,18 @@ footer {
 
 #contact1 a,
 #contact1 a:focus,
-#contact1 a:hover {
+#contact1 a:hover,
+#training1 a,
+#training1 a:focus,
+#training1 a:hover {
 	text-decoration: none;
 	outline: none;
 }
 
 h2 {
 	font-size: 3vh;
+}
+
+#edubar a {
+	padding: 0;
 }
