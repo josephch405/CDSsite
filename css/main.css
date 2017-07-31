@@ -117,7 +117,7 @@ footer a>img {
 }
 
 .container div {
-	font-size: 2vh;
+	font-size: 2.1vh;
 	line-height: 200%;
 }
 
@@ -357,6 +357,10 @@ a.anchor {
 
 h2 {
 	font-size: 3vh;
+}
+
+h3 {
+	font-size: 2.5vh;
 }
 
 #edubar a {
