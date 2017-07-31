@@ -11,6 +11,7 @@ body {
 #topbar+.container {
 	background-color: white;
 	padding-top: 12vh;
+	padding-bottom: 6vh;
 }
 
 #topbar {
@@ -151,6 +152,7 @@ h1 {
 }
 
 #contact1 button,
+#edusite,
 #training1 button {
 	box-shadow: 0 0 0 0 rgba(0, 0, 0, .2);
 	font-size: 2.4vh;
@@ -170,7 +172,9 @@ h1 {
 #inTheLoop:hover,
 #playground:hover,
 #inTheLoop:focus,
-#playground:focus {
+#playground:focus,
+#edusite:hover,
+#edusite:focus {
 	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .4);
 	background-color: #303475;
 	transform: scale(1.05, 1.05);
@@ -256,10 +260,25 @@ footer {
 	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .2)
 }
 
-.bannerTitle span {
+.bannerTitle span,
+#training1 h2 {
 	background-color: #2b2e68;
 	padding: 1vh;
+	color: white;
 }
+
+#training1 h2 {
+	margin: 2vh;
+	padding: 2vh;
+}
+
+a.anchor {
+	display: block;
+	position: relative;
+	top: -10vh;
+	visibility: hidden;
+}
+
 
 #trainingFaq {
 	background-image: url("../img/training.jpg");
