@@ -209,7 +209,7 @@ footer {
 	border: 10px solid #2b2e68;
 }
 
-#eboard .person {
+#eboard-div .person {
 	font-size: 2vh;
 }
 
@@ -373,8 +373,9 @@ h3 {
 	left: 0;
 	border-radius: 0;
 	border: 0;
+	font-size: 2vh;
 }
 
-#core h2 {
+#core-div h2 {
 	text-align: center;
 }
