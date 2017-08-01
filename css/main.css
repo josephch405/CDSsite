@@ -156,11 +156,12 @@ h1 {
 #training1 button {
 	box-shadow: 0 0 0 0 rgba(0, 0, 0, .2);
 	font-size: 2.4vh;
-	background-color: #2b2e68;
+	background-color: #FF901F;
 	color: white;
 	padding: 1.2vh;
 	border: none;
 	transition: all .15s ease;
+	font-weight: 800;
 }
 
 #contact1 div {
@@ -176,7 +177,7 @@ h1 {
 #edusite:hover,
 #edusite:focus {
 	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .4);
-	background-color: #303475;
+	background-color: #FFB161;
 	transform: scale(1.05, 1.05);
 	text-decoration: none;
 }
@@ -205,8 +206,8 @@ footer {
 	max-width: 40vh;
 	width: 100%;
 	border-radius: 100%;
-	background-color: #2b2e68;
-	border: 10px solid #2b2e68;
+	background-color: #4F539C;
+	border: 10px solid #4F539C;
 }
 
 #eboard-div .person {
@@ -223,8 +224,8 @@ footer {
 	max-width: 30vh;
 	width: 100%;
 	border-radius: 100%;
-	background-color: #2b2e68;
-	border: 1vh solid #2b2e68;
+	background-color: #4F539C;
+	border: 1vh solid #4F539C;
 }
 
 .project-descrip {
@@ -262,7 +263,7 @@ footer {
 }
 
 .bannerTitle span {
-	background-color: #2b2e68;
+	background-color: #FF901F;
 	padding: 1vh;
 	color: white;
 }
@@ -302,13 +303,12 @@ a.anchor {
 	font-size: 2.4vh;
 }
 
-#inTheLoop,
-#playground {
+#inTheLoop {
 	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .4);
 	display: inline-block;
 	padding: 1vh 2vh 1vh 2vh;
 	color: white;
-	background-color: #2b2e68;
+	background-color: #FF901F;
 	font-weight: bold;
 	transition: all .15s ease;
 }
