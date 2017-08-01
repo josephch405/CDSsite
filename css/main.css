@@ -261,8 +261,7 @@ footer {
 	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .2)
 }
 
-.bannerTitle span,
-#training1 h2 {
+.bannerTitle span {
 	background-color: #2b2e68;
 	padding: 1vh;
 	color: white;
@@ -272,6 +271,7 @@ footer {
 	margin-top: 2vh;
 	margin-bottom: 2vh;
 	padding: 2vh;
+	color: #2b2e68;
 }
 
 a.anchor {
