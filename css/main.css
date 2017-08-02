@@ -156,7 +156,7 @@ h1 {
 #training1 button {
 	box-shadow: 0 0 0 0 rgba(0, 0, 0, .2);
 	font-size: 2.4vh;
-	background-color: #FF901F;
+	background-color: #FF9F40;
 	color: white;
 	padding: 1.2vh;
 	border: none;
@@ -177,7 +177,7 @@ h1 {
 #edusite:hover,
 #edusite:focus {
 	box-shadow: 0 0 2vh 0 rgba(0, 0, 0, .4);
-	background-color: #FFB161;
+	background-color: #FFBB77;
 	transform: scale(1.05, 1.05);
 	text-decoration: none;
 }
@@ -263,7 +263,7 @@ footer {
 }
 
 .bannerTitle span {
-	background-color: #FF901F;
+	background-color: #FF9F40;
 	padding: 1vh;
 	color: white;
 }
@@ -308,7 +308,7 @@ a.anchor {
 	display: inline-block;
 	padding: 1vh 2vh 1vh 2vh;
 	color: white;
-	background-color: #FF901F;
+	background-color: #FF9F40;
 	font-weight: bold;
 	transition: all .15s ease;
 }
