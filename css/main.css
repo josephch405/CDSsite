@@ -12,6 +12,7 @@ body {
 	background-color: white;
 	padding-top: 12vh;
 	padding-bottom: 6vh;
+	box-shadow: 0 0 10vh 0 rgba(0,0,0,.4);
 }
 
 #topbar {
@@ -341,6 +342,9 @@ a.anchor {
 
 #home1 input {
 	border-radius: 0;
+	outline: none;
+	border: 0px;
+	background-color: #eee;
 }
 
 .navbar {
